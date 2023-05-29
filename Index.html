@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../Nueva carpeta/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap" rel="stylesheet">
+  <title>Rápidos y Furiosos - Películas</title>
+</head>
+
+<body>
+  <div class="menu">
+    <ul>
+      <li><a href="#peliculas">Películas</a></li>
+      <li><button id="dark-mode-toggle">Modo Oscuro</button></li>
+          <!-- <input type="text" id="inputTexto" placeholder="Ingresa el Nombre de la Pelicula 'Ryf1'">
+            <button onclick="buscarImagen()">Buscar</button>
+              <div id="resultado"></div> -->
+              <input type="text" id="inputNombre" placeholder="Buscar nombre">
+              <button onclick="buscarImagen()">Buscar</button>
+    </ul>
+  </div>
+  <div class="container">
+    <div class="hero">
+      <h1 class="titlefondo">Rápido y <br> Furioso</h1>
+    </div>
+    <div class="movie-list">
+      <div class="movie" id="peli1">
+        <img src="../Nueva carpeta/IMG/ryf1.jpeg" alt="The Fast and the Furious">
+        <h2>The Fast and the Furious</h2>
+        <p>Fecha de lanzamiento: 2001</p>
+        <p>Duración: 1h 46min</p>
+        <p>"The Fast and the Furious" es una película de acción sobre un policía encubierto que se infiltra en el mundo de las carreras callejeras y se ve atrapado entre la ley y la amistad con un líder criminal.</p>
+        <!-- <p>Horarios de función:</p>
+        <p>Lunes a viernes: 18:00, 20:30</p>
+        <p>Sábados y domingos: 15:00, 18:00, 20:30</p> -->
+      </div>
+      <div class="movie" id="peliculas">
+        <img src="../Nueva carpeta/IMG/ryf2.webp" alt="2 Fast 2 Furious">
+        <h2>2 Fast 2 Furious</h2>
+        <p>Fecha de lanzamiento: 2003</p>
+        <p>Duración: 1h 48min</p>
+        <p>"2 Fast 2 Furious" es la secuela de "The Fast and the Furious". Brian O'Conner se une a un amigo para infiltrarse en el mundo del crimen en Miami. Carreras callejeras, acción y peligro los esperan en esta trepidante película.</p>
+        <!-- <p>Horarios de función:</p>
+        <p>Lunes a viernes: 18:00, 20:30</p>
+        <p>Sábados y domingos: 15:00, 18:00, 20:30</p> -->
+      </div>
+      <div class="movie" id="peliculas">
+        <img src="../Nueva carpeta/IMG/ryf3.jpg" alt="Turbo-Charged Prelude">
+        <h2>Turbo-Charged Prelude</h2>
+        <p>Fecha de lanzamiento: 2003</p>
+        <p>Duración: 6min</p>
+        <p>"Turbo-Charged Prelude" es un cortometraje que sigue a Brian O'Conner en su huida mientras participa en carreras clandestinas por todo Estados Unidos. Es un emocionante prólogo a "2 Fast 2 Furious".</p>
+        <!-- <p>Horarios de función:</p>
+        <p>Lunes a viernes: 18:00, 20:30</p>
+        <p>Sábados y domingos: 15:00, 18:00, 20:30</p> -->
+      </div>
+      <div class="movie" id="peliculas">
+        <img src="../Nueva carpeta/IMG/ryf4.webp" alt="The Fast and the Furious: Tokyo Drift">
+        <h2>The Fast and the Furious: Tokyo Drift</h2>
+        <p>Fecha de lanzamiento: 2006</p>
+        <p>Duración: 1h 44min</p>
+        <p>"The Fast and the Furious: Tokyo Drift" es una película de acción sobre un joven que se muda a Tokio, se involucra en carreras callejeras y se enfrenta a rivalidades peligrosas.</p>
+        <!-- <p>Horarios de función:</p>
+        <p>Lunes a viernes: 18:00, 20:30</p>
+        <p>Sábados y domingos: 15:00, 18:00, 20:30</p> -->
+      </div>
+      <div class="movie" id="peliculas">
+        <img src="../Nueva carpeta/IMG/ryf5.png" alt="Rápidos y furiosos 4">
+        <h2>Fast and Furious 4</h2>
+        <p>Fecha de lanzamiento: 2009</p>
+        <p>Duración: 1h 47min</p>
+        <p>"Rápidos y Furiosos 4" es una película de acción que sigue la historia de Dominic Toretto y Brian O'Conner, quienes se unen nuevamente para enfrentar a un peligroso narcotraficante y recuperar su libertad.</p>
+        <!-- <p>Horarios de función:</p>
+        <p>Lunes a viernes: 18:00, 20:30</p>
+        <p>Sábados y domingos: 15:00, 18:00, 20:30</p> -->
+      </div>
+      <div class="movie" id="peliculas">
+        <img src="../Nueva carpeta/IMG/ryf6.jpg" alt="Los bandoleros">
+        <h2>Los bandoleros</h2>
+        <p>Fecha de lanzamiento: 2009</p>
+        <p>Duración: 20min</p>
+        <p>La historia sigue a Brian O'Conner, un policía encubierto que se infiltra en el mundo de las carreras callejeras para investigar a una banda de ladrones de vehículos. Pronto se ve envuelto en una rivalidad entre su lealtad a la ley y su amistad con Dom Toretto, el líder de la banda.</p>
+        <!-- <p>Horarios de función:</p>
+        <p>Lunes a viernes: 18:00, 20:30</p>
+        <p>Sábados y domingos: 15:00, 18:00, 20:30</p> -->
+      </div>
+      <div class="movie" id="peliculas">
+        <img src="../Nueva carpeta/IMG/ryf7.webp" alt="Rápidos y furiosos: 5in control">
+        <h2>Fast and Furious: 5in Control</h2>
+        <p>Fecha de lanzamiento: 2011</p>
+        <p>Duración: 2h 10min</p>
+        <p>"Rápidos y Furiosos 5: Sin Control" es una película de acción en la que Dominic Toretto y su equipo se unen al agente Hobbs para realizar un robo audaz en Río de Janeiro, enfrentándose a un narcotraficante y a la policía en una emocionante carrera.</p>
+        <!-- <p>Horarios de función:</p>
+        <p>Lunes a viernes: 18:00, 20:30</p>
+        <p>Sábados y domingos: 15:00, 18:00, 20:30</p> -->
+      </div>
+      <div class="movie" id="peliculas">
+        <img src="../Nueva carpeta/IMG/ryf8.png" alt="Rápidos y furiosos 6">
+        <h2>Fast and furious 6</h2>
+        <p>Fecha de lanzamiento: 2013</p>
+        <p>Duración: 2h 10min</p>
+        <p>En "Rápidos y Furiosos 6", Dominic Toretto y su equipo se alían con el agente Hobbs para detener a un peligroso mercenario y su banda, quienes amenazan la seguridad global. Se desencadena una intensa batalla llena de persecuciones, explosiones y emocionantes acrobacias en la que la lealtad y la velocidad son clave para sobrevivir.</p>
+        <!-- <p>Horarios de función:</p>
+        <p>Lunes a viernes: 18:00, 20:30</p>
+        <p>Sábados y domingos: 15:00, 18:00, 20:30</p> -->
+      </div>
+      <div class="movie" id="peliculas">
+        <img src="../Nueva carpeta/IMG/ryf9.webp" alt="Rápidos y furiosos 7">
+        <h2>Fast and furious 7</h2>
+        <p>Fecha de lanzamiento: 2015</p>
+        <p>Duración: 2h 20min</p>
+        <p>"Rápidos y Furiosos 7" es una película de acción en la que el equipo de Dominic Toretto se enfrenta a un peligroso asesino y lucha por proteger a su familia. <br> Además, la película es reconocida por ser el último trabajo del actor Paul Walker, quien falleció durante su producción.</p>
+        <!-- <p>Horarios de función:</p>
+        <p>Lunes a viernes: 18:00, 20:30</p>
+        <p>Sábados y domingos: 15:00, 18:00, 20:30</p> -->
+      </div>
+      <div class="movie" id="peliculas">
+        <img src="../Nueva carpeta/IMG/ryf10.jpg" alt="Rápidos y furiosos 8">
+        <h2>Fast and furious 8</h2>
+        <p>Fecha de lanzamiento: 2017</p>
+        <p>Duración: 2h 16min</p>
+        <p>"Rápidos y Furiosos 8" es una película de acción en la que el equipo de Dominic Toretto se ve traicionado por uno de sus miembros y se enfrenta a un enemigo peligroso. <br> Obligado a trabajar con una misteriosa mujer, se embarcan en una misión llena de persecuciones.</p>
+        <!-- <p>Horarios de función:</p>
+        <p>Lunes a viernes: 18:00, 20:30</p>
+        <p>Sábados y domingos: 15:00, 18:00, 20:30</p> -->
+      </div>
+      <div class="movie" id="peliculas">
+        <img src="../Nueva carpeta/IMG/ryf11.webp" alt="Rápidos y Furiosos 9">
+        <h2>Fast and furious 9</h2>
+        <p>Fecha de lanzamiento: 2021</p>
+        <p>Duración: 2h 15min</p>
+        <p>"Rápidos y Furiosos 9" es una película de acción en la que Dominic Toretto y su equipo se enfrentan a su desafío más personal hasta ahora. <br> Cuando el hermano perdido de Dominic, Jakob, emerge como un peligroso enemigo, el equipo se reúne nuevamente para detener sus malvados planes y proteger a aquellos a quienes aman.</p>
+        <!-- <p>Horarios de función:</p>
+        <p>Lunes a viernes: 18:00, 20:30</p>
+        <p>Sábados y domingos: 15:00, 18:00, 20:30</p> -->
+      </div>
+      <div class="movie" id="peliculas">
+        <img src="../Nueva carpeta/IMG/ryfX.jpg" alt="Rápidos y Furiosos 10">
+        <h2>Fast and furious X</h2>
+        <p>Fecha de lanzamiento: 2023</p>
+        <p>Duración: 2h 21min</p>
+        <p>"Rápidos y Furiosos X" Ahora, se enfrentan al oponente más letal al que se han enfrentado jamás: una amenaza aterradora que surge de las sombras del pasado y que está alimentada por una venganza sangrienta y que está decidida a destrozar a esta familia y destruir todo, y a todos, para siempre.</p>
+        <!-- <p>Horarios de función:</p>
+        <p>Lunes a viernes: 18:00, 20:30</p>
+        <p>Sábados y domingos: 15:00, 18:00, 20:30</p> -->
+      </div>
+    </div>
+    <!-- <div class="schedule" id="horarios">
+      <h2>Horarios de funciones</h2>
+      <p>Lunes a viernes: 18:00, 19:00, 20:30, 21:30</p>
+      <p>Sábados y domingos: 15:00, 16:00, 18:00, 19:00, 20:30, 21:30</p>
+    </div> -->
+  </div>
+  <script src="Script.js"></script>
+</body>
+</html>
